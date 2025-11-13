@@ -8,7 +8,7 @@ A clean, production-ready environment to run **n8n locally** using Docker, with 
 
 ---
 
-## Overview
+## ⭐ Overview
 
 This repository provides a fully functional setup to run **n8n self-hosted** on your local machine using:
 
@@ -28,7 +28,7 @@ This setup is ideal for:
 
 ---
 
-## Stack Components
+## 📦 Stack Components
 
 | Service | Description |
 |--------|-------------|
@@ -39,7 +39,7 @@ This setup is ideal for:
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### **1. Clone the repository**
 ```bash
@@ -66,10 +66,10 @@ docker compose up -d
 ### **4. Access n8n**
 
 #### Local machine  
-`http://localhost:5678`
+👉 `http://localhost:5678`
 
 #### Local network  
-`http://<your-local-ip>:5678`
+👉 `http://<your-local-ip>:5678`
 
 You will pass through two authentication layers:
 
@@ -79,7 +79,7 @@ You will pass through two authentication layers:
 
 ---
 
-## Project Structure
+## 🗂 Project Structure
 
 ```
 Configuring-n8n-Locally/
@@ -104,7 +104,7 @@ The folders inside **data/** are auto-created by Docker and must not be committe
 
 ---
 
-## docker-compose.yml
+## ⚙ docker-compose.yml
 
 This compose file includes:
 
@@ -123,7 +123,7 @@ You can later extend this to include:
 
 ---
 
-## Useful Docker Commands
+## 🔧 Useful Docker Commands
 
 ### Stop the whole stack:
 ```bash
@@ -144,7 +144,7 @@ docker logs -f n8n_postgres
 
 ---
 
-## Authentication
+## 🔐 Authentication
 
 ### Basic Auth  
 Configured directly in the compose file:
@@ -159,7 +159,7 @@ After passing Basic Auth, n8n will ask you to create an owner account that is st
 
 ---
 
-## Database Backups
+## 🔄 Database Backups
 
 Daily automatic backups are stored in:
 
@@ -171,7 +171,7 @@ You can adjust the retention period in the `docker-compose.yml` (`BACKUP_KEEP_DA
 
 ---
 
-## Why This Setup?
+## 🧪 Why This Setup?
 
 - No installation required (everything runs inside containers)
 - Zero system pollution — clean and safe
@@ -182,7 +182,7 @@ You can adjust the retention period in the `docker-compose.yml` (`BACKUP_KEEP_DA
 
 ---
 
-## Future Improvements
+## 📝 Future Improvements
 
 Here are recommended enhancements for a production-grade setup:
 
@@ -204,6 +204,16 @@ This is *the most important upgrade* when taking your environment from local tes
 - Add CI/CD for workflow export automation
 - Implement secrets manager (Vault, Doppler, 1Password)
 - Enable monitoring (Grafana + Prometheus)
+
+---
+
+## 📜 License
+MIT License — feel free to use, modify, and distribute.
+
+---
+
+## ⭐ Support
+If this project helps you, please consider leaving a **⭐ star** on GitHub!
 
 ---
 
