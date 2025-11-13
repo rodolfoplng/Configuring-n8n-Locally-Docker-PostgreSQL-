@@ -2,9 +2,6 @@
 
 A clean, production-ready environment to run **n8n locally** using Docker, with PostgreSQL as the database engine and automatic backups.
 
-<p align="center">
-  <img src="https://n8n.io/images/home/header/home-header-bg.png" width="70%" />
-</p>
 
 ---
 
