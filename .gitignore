@@ -1,0 +1,76 @@
+# ---------------------------
+# Environment & Secrets
+# ---------------------------
+.env
+*.env
+.env.local
+.env.*.local
+
+# ---------------------------
+# Docker Data Volumes
+# ---------------------------
+data/
+data/*
+!data/.gitkeep   # allow the folder placeholder
+
+# Backup files
+*.sql
+*.dump
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
+*.out
+*.err
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---------------------------
+# Node / n8n Specific
+# ---------------------------
+node_modules/
+dist/
+.cache/
+.n8n/
+
+# ---------------------------
+# System files
+# ---------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ---------------------------
+# Editors and IDEs
+# ---------------------------
+
+# VSCode
+.vscode/
+.history/
+
+# JetBrains
+.idea/
+*.iml
+
+# ---------------------------
+# Archives
+# ---------------------------
+*.zip
+*.tar
+*.gz
+*.tgz
+*.rar
